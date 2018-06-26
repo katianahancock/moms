@@ -1,0 +1,146 @@
+body {
+    background-color: #d8cbbd;
+    font-family: 'Cabin', sans-serif;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: left;
+}
+
+h1 {
+    font-size: 26px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: large;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+
+p, ul, ol {
+    line-height: 25px;
+    font-size: 15px;
+    list-style-position: outside;
+}
+
+#imgColumn {
+    width: auto;
+    float: left;
+    padding: 0px 15px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4px;
+}
+
+#topNav {
+    width: 79%;
+    height: 33px;
+    background-color: #fec793;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#topNavLinks a:hover {
+    background-color: #8b4a66;
+    color: white;
+}
+
+#topNavLinks {
+    width: 35%;
+    height: 100%;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: #8b4a66;
+    text-decoration: none;
+}
+
+#header {
+    width: 79%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#momsLogo {
+    padding: 5px 10px;
+}
+
+#momsAd {
+    padding: 5px 10px;
+}
+
+#greenNav {
+    background-color: #bfdccb;
+    width: 79%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#content {
+    background-color: white;
+    width: 79%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#leftContent {
+    background-color: white;
+    width: 60%;
+    height: auto;
+    padding: 20px;
+    position: relative;
+}
+
+#subheader {
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+#rightContent {
+    background-color: white;
+    width: 20%;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    min-width: 335px;
+}
+
+input {
+    width: 335px;
+    height: 28px;
+}
+
+#sidebarHeading {
+    background-color: #fec793;
+    width: 335px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    text-indent: 20px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+#tableTalk {
+    width: 100%;
+    font-size: 13px;
+}
+
+#alex {
+    max-width: 100%;
+    border: 1px grey solid;
+}
